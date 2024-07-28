@@ -26,6 +26,7 @@ body{
    
  
 }
+
 .custom-nav{
     border-bottom: 1px solid rgb(189, 186, 186);
 
@@ -184,6 +185,29 @@ body{
     top: -45px;
 
  }
+ .img-width{
+    width: 300px;
+    height: 250px;
+ }
+ .time{
+    width: 300px;
+    height: 77px;
+    font-family: sans-serif;
+ }
+ .text-hai{
+    margin-left: 150px !important;
+ }
+ .prod-width{
+    height: 230px;
+    width: 230px;
+   
+ }
+ /* .products{
+    margin-right: 15px !important;
+ } */
+  .banner{
+    width: 400px;
+  }
 
 
 
