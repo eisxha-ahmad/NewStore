@@ -127,8 +127,10 @@ body{
  }
  .circles{
     position: relative;
-    left: 470px;
+    left: 410px;
     top: -80px;
+    text-align: center;
+    
  }
 
  .circle1{
@@ -259,7 +261,9 @@ body{
     padding-top: 67px;
     padding-left: 6px;
     width: 260px;
-    height: 200px;
+    height: 225px;
+    position: relative;
+    left: -5px;
 
   }
   .arrivals{
@@ -342,4 +346,14 @@ body{
         width: 600px !important;
     }
 }
+@media ( max-width:px){
+    .idk{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .column-three{
+        width: 700px !important;
+    }
+}
+
 
