@@ -1,14 +1,10 @@
-.container{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
 
-}
 body{
     overflow-x: hidden;
     width: 100%;
+
+
+    
 }
 
 .listie{
@@ -272,13 +268,71 @@ body{
     height: 180px;
   }
 
+  .products-sell{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 4px;
+  }
+  .rows{
+    font-family: sans-serif;
+    margin-left: 20px;
+  }
+  .app-store{
+    background-color: rgb(211, 103, 121);
+    color: white;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    width: 230px;
+    height: 60px;
+  }
+  .store-icon{
+    border-left: 1px solid white;
+    font-family: sans-serif;
+    font-size: 14px;
+    /* padding-top: 8px; */
+    text-align: center;
+
+  }
+  .paragraph{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+  .input{
+    border: none;
+    width: 500px;
+    height: 50px;
+  }
+  .sign-up{
+    width: 500px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+  .download{
+    background-color:  rgb(216, 50, 50);
+    width: 100%;
+  }
+  .links{
+    cursor: pointer;
+    margin-bottom: 12px !important;
+    padding: 3px;
+  }
+  .links:hover{
+    text-decoration: underline;
+  }
 
 
 
 
 
 
-@media (min-width:475px){
+
+
+/* @media (min-width:475px){
     .container{
         max-width: 475px;
     }
@@ -307,6 +361,9 @@ body{
     .container{
         max-width: 1536px;
     }
+} */
+.last-div{
+    width: 100%;
 }
 
 
