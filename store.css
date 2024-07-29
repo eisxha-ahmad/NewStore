@@ -312,6 +312,9 @@ body{
     color: black;
     text-align: center;
   }
+  .sign-up:hover{
+    background-color: rgb(202, 102, 119);
+  }
   .download{
     background-color:  rgb(216, 50, 50);
     width: 100%;
@@ -325,48 +328,18 @@ body{
     text-decoration: underline;
   }
 
-
-
-
-
-
-
-
-/* @media (min-width:475px){
-    .container{
-        max-width: 475px;
-    }
-}
-@media (min-width:640px){
-    .container{
-        max-width: 640px;
-    }
-}
-@media (min-width:768px){
-    .container{
-        max-width: 768px;
-    }
-}
-@media (min-width:1024px){
-    .container{
-        max-width: 1024px;
-    }
-}
-@media (min-width:1280px){
-    .container{
-        max-width: 1280px;
-    }
-}
-@media (min-width:1536px){
-    .container{
-        max-width: 1536px;
-    }
-} */
 .last-div{
     width: 100%;
 }
 
 
-
-
+@media ( max-width:768px){
+    .idk{
+        display: flex;
+        flex-direction: column;
+    }
+    .column-three{
+        width: 600px !important;
+    }
+}
 
